@@ -1,0 +1,12 @@
+D:\BaseBackend\.vs\AuthAPI\Infracstructure\bin\Debug\net6.0\Infracstructure.deps.json
+D:\BaseBackend\.vs\AuthAPI\Infracstructure\bin\Debug\net6.0\Infracstructure.dll
+D:\BaseBackend\.vs\AuthAPI\Infracstructure\bin\Debug\net6.0\Infracstructure.pdb
+D:\BaseBackend\.vs\AuthAPI\Infracstructure\obj\Debug\net6.0\Infracstructure.csproj.AssemblyReference.cache
+D:\BaseBackend\.vs\AuthAPI\Infracstructure\obj\Debug\net6.0\Infracstructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaseBackend\.vs\AuthAPI\Infracstructure\obj\Debug\net6.0\Infracstructure.AssemblyInfoInputs.cache
+D:\BaseBackend\.vs\AuthAPI\Infracstructure\obj\Debug\net6.0\Infracstructure.AssemblyInfo.cs
+D:\BaseBackend\.vs\AuthAPI\Infracstructure\obj\Debug\net6.0\Infracstructure.csproj.CoreCompileInputs.cache
+D:\BaseBackend\.vs\AuthAPI\Infracstructure\obj\Debug\net6.0\Infracstructure.dll
+D:\BaseBackend\.vs\AuthAPI\Infracstructure\obj\Debug\net6.0\refint\Infracstructure.dll
+D:\BaseBackend\.vs\AuthAPI\Infracstructure\obj\Debug\net6.0\Infracstructure.pdb
+D:\BaseBackend\.vs\AuthAPI\Infracstructure\obj\Debug\net6.0\ref\Infracstructure.dll

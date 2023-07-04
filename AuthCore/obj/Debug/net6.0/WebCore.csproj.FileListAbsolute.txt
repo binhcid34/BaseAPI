@@ -1,0 +1,15 @@
+D:\BaseBackend\.vs\AuthAPI\AuthCore\bin\Debug\net6.0\WebCore.deps.json
+D:\BaseBackend\.vs\AuthAPI\AuthCore\bin\Debug\net6.0\WebCore.dll
+D:\BaseBackend\.vs\AuthAPI\AuthCore\bin\Debug\net6.0\WebCore.pdb
+D:\BaseBackend\.vs\AuthAPI\AuthCore\bin\Debug\net6.0\Infracstructure.dll
+D:\BaseBackend\.vs\AuthAPI\AuthCore\bin\Debug\net6.0\Infracstructure.pdb
+D:\BaseBackend\.vs\AuthAPI\AuthCore\obj\Debug\net6.0\WebCore.csproj.AssemblyReference.cache
+D:\BaseBackend\.vs\AuthAPI\AuthCore\obj\Debug\net6.0\WebCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaseBackend\.vs\AuthAPI\AuthCore\obj\Debug\net6.0\WebCore.AssemblyInfoInputs.cache
+D:\BaseBackend\.vs\AuthAPI\AuthCore\obj\Debug\net6.0\WebCore.AssemblyInfo.cs
+D:\BaseBackend\.vs\AuthAPI\AuthCore\obj\Debug\net6.0\WebCore.csproj.CoreCompileInputs.cache
+D:\BaseBackend\.vs\AuthAPI\AuthCore\obj\Debug\net6.0\WebCore.csproj.CopyComplete
+D:\BaseBackend\.vs\AuthAPI\AuthCore\obj\Debug\net6.0\WebCore.dll
+D:\BaseBackend\.vs\AuthAPI\AuthCore\obj\Debug\net6.0\refint\WebCore.dll
+D:\BaseBackend\.vs\AuthAPI\AuthCore\obj\Debug\net6.0\WebCore.pdb
+D:\BaseBackend\.vs\AuthAPI\AuthCore\obj\Debug\net6.0\ref\WebCore.dll
