@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BaseBackend\\.vs\\AuthAPI\\Infracstructure\\Infracstructure.csproj": {}
+    "D:\\BaseProject\\BaseBackend\\.vs\\AuthAPI\\Infracstructure\\Infracstructure.csproj": {}
   },
   "projects": {
-    "D:\\BaseBackend\\.vs\\AuthAPI\\Infracstructure\\Infracstructure.csproj": {
+    "D:\\BaseProject\\BaseBackend\\.vs\\AuthAPI\\Infracstructure\\Infracstructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BaseBackend\\.vs\\AuthAPI\\Infracstructure\\Infracstructure.csproj",
+        "projectUniqueName": "D:\\BaseProject\\BaseBackend\\.vs\\AuthAPI\\Infracstructure\\Infracstructure.csproj",
         "projectName": "Infracstructure",
-        "projectPath": "D:\\BaseBackend\\.vs\\AuthAPI\\Infracstructure\\Infracstructure.csproj",
+        "projectPath": "D:\\BaseProject\\BaseBackend\\.vs\\AuthAPI\\Infracstructure\\Infracstructure.csproj",
         "packagesPath": "C:\\Users\\binhc\\.nuget\\packages\\",
-        "outputPath": "D:\\BaseBackend\\.vs\\AuthAPI\\Infracstructure\\obj\\",
+        "outputPath": "D:\\BaseProject\\BaseBackend\\.vs\\AuthAPI\\Infracstructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\binhc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "Dapper": {
               "target": "Package",
               "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",

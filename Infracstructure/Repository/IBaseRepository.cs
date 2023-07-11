@@ -16,6 +16,7 @@ namespace Infracstructure.Repository
         T ExcuteProcedure<T>(string procedure, DynamicParameters parameters);
 
         T ExcuteCommandLine(string query);
+        T ExcuteCommandLine(string query, DynamicParameters parameters);
 
         IEnumerable<T> ExcuteProcedureToList(string procedure, DynamicParameters parameters);
 

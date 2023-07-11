@@ -74,8 +74,7 @@ namespace AuthCore.Services
 
         public async Task<User> getUserByUserID(string userID)
         {
-            var ssid = _IContextWrapper.GetValueFromRequest("SSID", "");
-            var query = $"Select *  FROM session WHERE SessionID = '{ssid}' ORDER BY ExpiredDate DESC limit 1;";
+            var query = $"Select *  FROM user WHERE UserID = '{userID}' limit 1;";
             return _IRepository.ExcuteCommandLine(query);
         }
     }

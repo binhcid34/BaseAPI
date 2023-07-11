@@ -122,5 +122,24 @@ namespace Infracstructure.Repository
                 finally { conn.Close(); }
             }
         }
+
+        public T ExcuteCommandLine(string query, DynamicParameters parameters)
+        {
+            using (var conn = new MySqlConnection(_connectString))
+            {
+                try
+                {
+                    conn.Open();
+                    var res = conn.Query<T>(query, parameters, commandType: System.Data.CommandType.Text).FirstOrDefault();
+                    return res;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                    throw ex;
+                }
+                finally { conn.Close(); }
+            }
+        }
     }
 }

@@ -7,10 +7,9 @@ namespace AuthAPI.Filters
 {
     public class AuthAttribute : TypeFilterAttribute
     {
-        public AuthAttribute(string actionName, string roleType) : base(typeof(AuthorizeAction))
+        public AuthAttribute(string roleType) : base(typeof(AuthorizeAction))
         {
             Arguments = new object[] {
-            actionName,
             roleType
         };
         }

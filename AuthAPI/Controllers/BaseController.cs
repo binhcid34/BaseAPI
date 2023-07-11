@@ -8,7 +8,7 @@ namespace AuthAPI.Controllers
     [ApiController]
     public class BaseController : ControllerBase
     {
-        public User? CurrentUser => (User)HttpContext.Items["CurrentUser"];
+        public User? CurrentUser => (User)HttpContext.Items["User"];
 
         protected IActionResult OkCustomeResult(object? obj)
         {

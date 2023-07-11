@@ -12,6 +12,6 @@ namespace WebCore.Common
     {
         public User? currentUser { get; set; }
         public string ssid { get; set; }
-        public  HttpContext httpContext { get; set; }
+        public HttpContext httpContext { get; set; }
     }
 }

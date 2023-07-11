@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "yFKKXbTCbS9I1drZ5hkPQs3X4aED7mhSFPC+izXBkmrbx0F05Al7RyZ2W7Ro03iGDQHlWAfSpo10oFqXdTktow==",
+  "dgSpecHash": "HXYymAl+o/hLvJ22reqD2wSMXQBvB2c4L0dXGXlWhGHzhyyuYJ0P+ta9IiEdgf0tL1wgE4S9Dr4Uy5iVx5auBw==",
   "success": true,
-  "projectFilePath": "D:\\BaseBackend\\.vs\\AuthAPI\\Infracstructure\\Infracstructure.csproj",
+  "projectFilePath": "D:\\BaseProject\\BaseBackend\\.vs\\AuthAPI\\Infracstructure\\Infracstructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\binhc\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\binhc\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\binhc\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\binhc\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\binhc\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\binhc\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\binhc\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\binhc\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\binhc\\.nuget\\packages\\mysqlconnector\\2.2.6\\mysqlconnector.2.2.6.nupkg.sha512",
     "C:\\Users\\binhc\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"

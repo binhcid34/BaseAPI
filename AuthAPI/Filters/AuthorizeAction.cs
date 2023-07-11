@@ -11,14 +11,13 @@ namespace AuthAPI.Filters
 {
     public class AuthorizeAction : IActionFilter
     {
-        private readonly string _actionName;
         private readonly string _roleType;
         private IContextWrapper _IContextWrapper;
         private ISessionService _ISessionService;
         private IUserService _IUserService;
-        public AuthorizeAction(string actionName, string roleType, IContextWrapper contextWrapper, IUserService userService)
+        private HttpContext _context;
+        public AuthorizeAction( string roleType, IContextWrapper contextWrapper, IUserService userService)
         {
-            _actionName = actionName;
             _roleType = roleType;
             _IContextWrapper = contextWrapper;
             _IUserService= userService;
@@ -35,37 +34,21 @@ namespace AuthAPI.Filters
         /// <param name="context"></param>
         public async void OnActionExecuting(ActionExecutingContext context)
         {
-            if (_actionName == "login")
+            // check currentUser in HttpContext
+            var currentUser = context.HttpContext.Items["User"];
+            if (currentUser == null)
             {
-               var ssid =  _IContextWrapper.GetValueFromRequest("SSID", "");
-                if (String.IsNullOrEmpty(ssid))
-                {
-
-                    this.errorValidSession(context);
-                }
-                // Kiểm tra xem sesion hợp lệ không
-                var userID = _ISessionService.checkSession(ssid);
-                if (userID == null)
-                {
-                    this.errorValidSession(context);
-                }
-                else
-                {
-                    // Get current User
-                    User curentUser = await _IUserService.getUserByUserID(userID);
-                    if (curentUser == null)
-                    {
-                        this.errorValidSession(context);
-                    }
-                    //_IContextWrapper.Set("userID", curentUser.UserID.ToString(), 180);
-                }
-
+                this.errorValidSession(context);
             }
-            Console.WriteLine("input");
+            // check role
+            if (!String.IsNullOrEmpty(_roleType))
+            {
+                
+            }
         }
         private void errorValidSession(ActionExecutingContext context)
         {
-            context.Result  = new JsonResult("Login_Again");
+            context.Result  = new JsonResult( new { Message = "Login_Again", SubCode = 99, Success = false});
         }
     }
 }

@@ -42,3 +42,8 @@ D:\BaseBackend\.vs\AuthAPI\AuthAPI\obj\Debug\net6.0\refint\WebAPI.dll
 D:\BaseBackend\.vs\AuthAPI\AuthAPI\obj\Debug\net6.0\WebAPI.pdb
 D:\BaseBackend\.vs\AuthAPI\AuthAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
 D:\BaseBackend\.vs\AuthAPI\AuthAPI\obj\Debug\net6.0\ref\WebAPI.dll
+D:\BaseBackend\.vs\AuthAPI\AuthAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\BaseBackend\.vs\AuthAPI\AuthAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\BaseBackend\.vs\AuthAPI\AuthAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\BaseBackend\.vs\AuthAPI\AuthAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\BaseBackend\.vs\AuthAPI\AuthAPI\bin\Debug\net6.0\Microsoft.Extensions.Options.dll

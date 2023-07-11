@@ -15,8 +15,4 @@
     <ProjectReference Include="..\Infracstructure\Infracstructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="NewFolder\" />
-  </ItemGroup>
-
 </Project>

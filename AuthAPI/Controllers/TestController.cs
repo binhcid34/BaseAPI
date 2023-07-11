@@ -6,12 +6,12 @@ namespace AuthAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [AuthAttribute("login","1")]
     public class TestController : BaseController
     {
         [HttpGet]
+        [AuthAttribute("admin")]
         public IActionResult CheckLogin() {
-            return Ok("check login");
+            return Ok(CurrentUser);
         }
     }
 }
